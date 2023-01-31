@@ -36,6 +36,8 @@ body {
 main {
     width:80%;
     margin: auto;
+    border: 15px solid white;
+    border-radius: 10px 10px 0 0;
 }
 
 nav {
@@ -77,18 +79,26 @@ nav {
     margin-bottom: 10px;
 }
 
-.check {
-    border: 2px solid green;
-    width: 23px;
-    height: 23px;
+.symbols {
+    border: 1px solid;
+    width: 32px;
+    height: 32px;
     display: inline-block;
     text-align: center;
     border-radius: 50%;
-    color: green;
+    
     margin-right: 5px;
 }
 
-.cross
+.check {
+    border-color:green;
+    color: green;
+}
+
+.cross {
+    border-color:red;
+    color: red;
+}
 
 .tag {
     border-radius: 1.4rem;
@@ -105,7 +115,26 @@ nav {
     background-color: blueviolet;
 }
 
+.recruiting {
+    background-color: aquamarine;
+}
+
+.mobile {
+    background-color: orange;
+}
+
+.website {
+    background-color: pink;
+}
+
+.sales {
+    background-color: green;
+}
+
 .goals {
     margin-bottom: 20px;
+    font-size: 1.4rem;
 }
+
+
 
