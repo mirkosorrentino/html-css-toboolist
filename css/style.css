@@ -6,9 +6,59 @@
 }
 
 /* COMMON */
+body {
+    background-color: lightgray;
+    font-family: roboto, sans-serif;
+}
 
 /* HEADER */
+.header {
+    height: 80px;
+    line-height: 80px;
+    vertical-align: middle;
+    background-color: white;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
 
-/* NAVIGATION */
+.title {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2.8rem;
+}
+
+.logo {
+    vertical-align: middle;
+}
 
 /* MAIN */
+/* NAVIGATION */
+main {
+    width:80%;
+    margin: auto;
+}
+
+nav {
+    background-color: white;
+    padding: 10px;
+}
+
+.buttons {
+    border-radius: 10px;
+    height: 30px;
+}
+
+.add-task {
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 75px;
+}
+
+.add-section {
+    border-color: lightgray;
+    color: lightgray;
+    width: 100px;
+}
+
+/* list-style-type */
